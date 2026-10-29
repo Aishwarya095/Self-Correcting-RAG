@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints & autosaves
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Downloaded Datasets & Repositories
+RAGTruth/
+dataset/
+*.jsonl
+
+# Hugging Face & Torch caches
+.cache/
+hf_cache/
+checkpoints/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large binaries & model weights
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Papers & draft documents (avoid plagiarism / blind review issues)
+*.pdf
+docs/*.pdf
+
+

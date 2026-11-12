@@ -53,9 +53,12 @@ flowchart TD
 
 ## 📊 Experimental Results
 
-Evaluated on the **RAGTruth** balanced test benchmark ($N = 200$ samples: 100 hallucinated, 100 grounded):
+**Historical results below need to be regenerated.** They came from an earlier notebook version that
+selected between the composite detector and logistic regression using test-set F1, so the reported
+“best” score is not an unbiased held-out estimate. The notebook now selects the method on a
+source-grouped validation split and evaluates the test set once.
 
-### Overall Pipeline Performance
+### Previous run (historical; do not treat as final)
 | Metric | Score | Performance Bar |
 |---|---|---|
 | **Accuracy** | **0.6400** | `███████████████████░░░░░░░░░░░` |
@@ -64,7 +67,7 @@ Evaluated on the **RAGTruth** balanced test benchmark ($N = 200$ samples: 100 ha
 | **F1-Score** | **0.6975** | `████████████████████░░░░░░░░░░` |
 | **ROC-AUC** | **0.5692** | `█████████████████░░░░░░░░░░░░░` |
 
-### Per-Task Breakdown
+### Previous per-task scores (historical)
 | Task Type | Samples ($N$) | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|---|
 | **Data2txt** | 83 | **0.675** | **0.688** | **0.965** | **0.803** |
